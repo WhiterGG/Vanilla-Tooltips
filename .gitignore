@@ -1,0 +1,24 @@
+# Build output and Gradle caches
+**/.gradle/
+**/.gradle-*/
+**/.gradle-user-home/
+**/.tmp/
+**/.tmp-*/
+**/build/
+**/bin/
+**/run/
+
+# Local IDE and Eclipse files
+.vscode/
+**/.vscode/
+**/.idea/
+**/.eclipse/
+
+# Download bundles and installed mod copies; source repo contains projects only
+/Builds/
+/Mods/
+
+# Machine-specific build helper contains local JDK paths
+/build-all.ps1
+
+*.log

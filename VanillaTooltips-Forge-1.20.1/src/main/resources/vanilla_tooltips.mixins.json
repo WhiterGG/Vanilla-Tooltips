@@ -1,0 +1,19 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "refmap": "vanilla_tooltips.refmap.json",
+  "package": "ru.vanillatooltips.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "ArmorStandOpacityMixin",
+    "ClientTextTooltipAccessor",
+    "YACLCategoryTabMixin",
+    "YACLScreenMixin",
+    "YACLColorResetPriorityMixin",
+    "YACLPopupControllerScreenAccessor",
+    "YACLPopupClickForwardingMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "vanilla_tooltips",
+	"version": "${version}",
+	"name": "Vanilla Tooltips",
+	"description": "Customizable item tooltips with animated previews, rarity styling, and armor displays.",
+	"authors": [
+		"WhiterGG"
+	],
+	"icon": "assets/vanilla_tooltips/icon.png",
+	"license": "MIT",
+	"environment": "client",
+	"entrypoints": {
+		"client": [
+			"ru.vanillatooltips.VanillaTooltipsClient"
+		],
+		"modmenu": [
+			"ru.vanillatooltips.compat.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		{
+			"config": "vanilla_tooltips.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~26.2",
+		"java": ">=25",
+		"fabric-api": "*",
+		"yet_another_config_lib_v3": ">=3.9.7"
+	},
+	"suggests": {
+		"modmenu": "*"
+	}
+}

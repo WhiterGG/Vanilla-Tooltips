@@ -1,0 +1,21 @@
+{
+	"required": true,
+	"package": "ru.vanillatooltips.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"client": [
+		"ArmorStandOpacityMixin",
+		"ClientTextTooltipAccessor",
+		"GuiGraphicsMixin",
+		"InventoryScreenAccessor",
+		"YACLCategoryTabMixin",
+    "YACLScreenMixin",
+    "YACLColorResetPriorityMixin",
+        "YACLPopupControllerScreenMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}
