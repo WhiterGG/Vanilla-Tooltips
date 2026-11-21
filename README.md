@@ -4,6 +4,8 @@
 
 It adds animated item previews, rarity styling, and a 3D armor preview. Customize their appearance, colors, layout, and animations, or turn visual features off individually.
 
+Get the latest version on [Modrinth](https://modrinth.com/mod/vanilla-tooltips).
+
 ![Before and after](https://cdn.modrinth.com/data/cached_images/84ce95a6fe0660418312759e0dacc5ed8fbebf49_0.webp)
 
 ![Animated item previews with rarity styling](https://cdn.modrinth.com/data/cached_images/40ada8523f85635b09cd6831584f7ad92ba9b166.gif)
