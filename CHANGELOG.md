@@ -2,5 +2,5 @@
 
 Added two-color vertical gradients to configurable color settings. Gradients run from top to bottom, with default colors inspired by each rarity.
 
-###### Thank you for 1,000 downloads!
+**Thank you for 1,000 downloads!**
 
