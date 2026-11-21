@@ -184,7 +184,7 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 tasks.named('jar', Jar).configure {
-    from('LICENSE')
+    from('../LICENSE')
 }
 
 // IDEA no longer automatically downloads sources/javadoc jars for dependencies, so we need to explicitly enable the behavior.

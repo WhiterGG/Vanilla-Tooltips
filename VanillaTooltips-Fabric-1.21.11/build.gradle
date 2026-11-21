@@ -70,7 +70,7 @@ java {
 }
 
 jar {
-	from("LICENSE")
+from("../LICENSE")
 }
 
 // configure the maven publication
